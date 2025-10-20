@@ -5,7 +5,7 @@
   padding-left: 50px;
   padding-right: 50px;
   margin-top: 100px;
-  margin-bottom: 50px;
+  margin-bottom: 112px;
 }
 h3 {
   font-family: "Raleway", sans-serif;
@@ -18,7 +18,7 @@ h3 {
   max-height: 98px;
   justify-self: end;
 }
-.logo {
+.header__logo {
   width: 148px;
   height: 105px;
 }
@@ -28,14 +28,22 @@ h3 {
 .nav-address {
   width: 236, 49;
   height: 49;
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-style: Regular;
   margin: 1px;
 }
 .nav-link {
-  padding: 20px 15px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
   color: #333;
   text-decoration: none;
   transition: all 0.3s ease;
   position: relative;
+  padding-right: 13px;
 }
 
 .nav-link:hover {
@@ -66,6 +74,7 @@ h3 {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-style: Regular;
+  letter-spacing: 0%;
   font-size: 18px;
 }
 .cover {
@@ -91,16 +100,22 @@ h3 {
   display: flex;
   flex-direction: column;
   padding: 165px 50px 106px 50px;
+
 }
 .span-right {
   align-self: flex-end;
+    font-size: 100px;
+letter-spacing: 30px;
 }
 .span-center {
   align-self: center;
+letter-spacing: 20px;
 }
 .span-left {
   align-self: flex-start;
+letter-spacing: 25px;
 }
+
 
 .description {
   display: flex;
@@ -130,9 +145,10 @@ h3 {
   font-size: 22px;
   text-transform: uppercase;
   color: white;
+  margin-left: 107px;
 }
 .lots {
-  margin: 180px 24px 0px 24px;
+  margin: 180px 24px 120px 24px;
   position: relative;
 }
 .title-lots {
@@ -143,11 +159,13 @@ h3 {
   text-transform: uppercase;
   color: black;
   margin-left: 40px;
+  margin-bottom: 27px;
 }
 .lots__card-list {
   display: flex;
   align-self: center;
   justify-content: space-between;
+  margin-bottom: 20px;
 }
 .lots__card-list-item {
   min-height: 596px;
@@ -192,10 +210,11 @@ h3 {
   padding: 0 40px 48px 40px;
 }
 .h3-more {
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-style: Regular;
   font-size: 20px;
+  text-decoration: underline;
 }
 .about {
   grid-template-columns: 1fr 3fr;
