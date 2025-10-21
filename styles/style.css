@@ -41,33 +41,19 @@ h3 {
   font-style: Regular;
   font-size: 18px;
   color: #333;
-  text-decoration: none;
   transition: all 0.3s ease;
   position: relative;
   padding-right: 13px;
 }
 
-.nav-link:hover {
-  text-decoration: underline;
-}
-
-.nav-link.active {
-  text-decoration: underline;
-}
-
-.nav-link.active::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 15px;
-  right: 15px;
-  height: 2px;
-  text-decoration: underline;
-}
 .header__links-list {
   display: flex;
   list-style: circle;
   gap: 20px;
+}
+.header__menu-item-active .nav-link {
+  text-decoration: none;
+  list-style: none; 
 }
 
 .a-contact {
@@ -84,9 +70,11 @@ h3 {
 
 .cover {
   width: 100%;
-  height: 100%;
+  height: 757px;
   background-image: url(../sourse/images/0ebc4c3a92bfb672f477e421e7738fd6416ff19b.jpg);
   background-size: cover;
+  display: flex;
+  
 }
 .overlay {
   width: 100%;
@@ -104,20 +92,25 @@ h3 {
   color: rgba(255, 255, 255, 1);
   display: flex;
   flex-direction: column;
-  padding: 165px 50px 106px 50px;
+  justify-content: space-between;
+
 }
 .span-right {
   align-self: flex-end;
+  margin-right: 0;
   font-size: 100px;
-  letter-spacing: 30px;
+  letter-spacing: 25px;
+  margin-right: 25px;
 }
-.span-center {
+.span-center {  
   align-self: center;
-  letter-spacing: 20px;
+  letter-spacing: 25px;
 }
 .span-left {
   align-self: flex-start;
   letter-spacing: 25px;
+  padding-top: 165px;
+  margin-left: 50px;
 }
 
 .description {
@@ -169,6 +162,7 @@ h3 {
   align-self: center;
   justify-content: space-between;
   margin-bottom: 20px;
+  list-style: none;
 }
 .lots__card-list-item {
   min-height: 596px;
@@ -262,10 +256,14 @@ h3 {
   font-size: 18px;
   text-align: center;
 }
+.footer__menu-item-active .nav-link{
+  text-decoration: none;
+}
 .footer__links-list {
   display: flex;
   flex-direction: column;
   align-content: center;
+      list-style: none;
 }
 .footer-address {
   max-width: 240px;
@@ -283,6 +281,7 @@ h3 {
   width: 240px;
   justify-content: space-between;
   align-items: end;
+  list-style: none;
 }
 .footer-social-icon-youtube {
   width: 48px;
@@ -299,4 +298,5 @@ h3 {
   width: 48px;
   height: 48px;
   background-image: url(../sourse/images/Pinterest.svg);
+  
 }
