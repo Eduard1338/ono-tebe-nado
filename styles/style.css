@@ -5,7 +5,6 @@
   padding-left: 50px;
   padding-right: 50px;
   margin-top: 95px;
-  margin-bottom: 112px;
 }
 h3 {
   font-family: "Raleway", sans-serif;
@@ -53,7 +52,7 @@ h3 {
 }
 .header__menu-item-active .nav-link {
   text-decoration: none;
-  list-style: none; 
+  list-style: none;
 }
 
 .a-contact {
@@ -74,7 +73,7 @@ h3 {
   background-image: url(../sourse/images/0ebc4c3a92bfb672f477e421e7738fd6416ff19b.jpg);
   background-size: cover;
   display: flex;
-  
+  margin-top: 95px;
 }
 .overlay {
   width: 100%;
@@ -93,7 +92,6 @@ h3 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
 }
 .span-right {
   align-self: flex-end;
@@ -102,7 +100,7 @@ h3 {
   letter-spacing: 25px;
   margin-right: 25px;
 }
-.span-center {  
+.span-center {
   align-self: center;
   letter-spacing: 25px;
 }
@@ -256,14 +254,14 @@ h3 {
   font-size: 18px;
   text-align: center;
 }
-.footer__menu-item-active .nav-link{
+.footer__menu-item-active .nav-link {
   text-decoration: none;
 }
 .footer__links-list {
   display: flex;
   flex-direction: column;
   align-content: center;
-      list-style: none;
+  list-style: none;
 }
 .footer-address {
   max-width: 240px;
@@ -298,5 +296,4 @@ h3 {
   width: 48px;
   height: 48px;
   background-image: url(../sourse/images/Pinterest.svg);
-  
 }
